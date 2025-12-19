@@ -3,10 +3,10 @@
 mcpplibs是[mcpp-community](https://github.com/mcpp-community)社区维护的一个"模块化"的现代C++库集合
 
 ```cpp
-import mcpplibs;
+import mcpplibs.templates;
 
-int main() {
-    mcpplibs::hello_mcpplibs();
+auto main() -> int {
+    mcpplibs::hello_mcpp();
 }
 ```
 
